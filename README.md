@@ -1,4 +1,4 @@
-# 🧪 Testes Automatizados – Formulários Site e Certificação
+#  Testes Automatizados – Formulários Site e Certificação
 
 Este repositório contém testes automatizados desenvolvidos com **Cypress** para validação de formulários nas aplicações:
 
@@ -9,7 +9,7 @@ Os testes garantem o correto funcionamento das regras de obrigatoriedade dos cam
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Cypress
 - JavaScript
@@ -20,14 +20,14 @@ Os testes garantem o correto funcionamento das regras de obrigatoriedade dos cam
 
 ---
 
-# 🔎 Aplicação 1: /site
+#  Aplicação 1: /site
 
 ### URL testada:
 https://qualidade.apprbs.com.br/site
 
-## 📌 Cenários Cobertos
+##  Cenários Cobertos
 
-### ✅ Cenários Negativos
+###  Cenários Negativos
 - Não preenchimento do campo **nome**
 - Não preenchimento do campo **email**
 - Preenchimento apenas do telefone
@@ -35,32 +35,32 @@ https://qualidade.apprbs.com.br/site
   "Preencha este campo"
 - Botão **Concluir** permanece desabilitado
 
-### ✅ Cenário Positivo
+###  Cenário Positivo
 - Preenchimento de **nome + email**
 - Botão habilitado
 - Possibilidade de avançar
 
 ---
 
-# 🔎 Aplicação 2: /certificacao
+#  Aplicação 2: /certificacao
 
 ### URL testada:
 https://qualidade.apprbs.com.br/certificacao
 
-## 📌 Cenários Cobertos
+##  Cenários Cobertos
 
-### ✅ Validação de Campos Obrigatórios
+###  Validação de Campos Obrigatórios
 - Nome obrigatório
 - Email obrigatório
 
-### ✅ Validação de Interface
+###  Validação de Interface
 - Exibição de mensagens de erro
 - Estado do botão (`disabled` / habilitado)
 - Disparo correto de validações
 
 ---
 
-# 🧠 Regras de Negócio Validadas
+#  Regras de Negócio Validadas
 
 - Campos obrigatórios: **Nome e Email**
 - Campo opcional: **Telefone**
@@ -70,9 +70,9 @@ https://qualidade.apprbs.com.br/certificacao
 
 ---
 
-# ▶️ Como Executar os Testes
+#  Como Executar os Testes
 
-## 1️⃣ Instalar dependências
+## 1️ Instalar dependências
 
 ```bash
 npm install
